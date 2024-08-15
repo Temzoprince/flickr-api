@@ -6,9 +6,9 @@ The goal of this project is to create a basic photo widget that allows you to di
 
 1. Go back to the Flickr API Docs and click Create an App at the top.
 
-Follow the steps for getting your API key. You’ll have to sign in or sign up for Flickr (someone has to these days) and give them some basic information about your app. Select “Apply for a non-commercial key” and let them know how awesome your photo feed app will be. You’ll automatically get a key generated for you, in addition to a secret key. Copy both of these somewhere you can get to them later.
+2. Follow the steps for getting your API key. You’ll have to sign in or sign up for Flickr (someone has to these days) and give them some basic information about your app. Select “Apply for a non-commercial key” and let them know how awesome your photo feed app will be. You’ll automatically get a key generated for you, in addition to a secret key. Copy both of these somewhere you can get to them later.
 
-While logged in, copy your Flickr ID from the browser address bar by navigating to the “You” link on the top navbar. It will look like https://www.flickr.com/photos/yourIDhere/. An example would be 1895558555@N03. You’ll need that later for some of the API methods.
+3. While logged in, copy your Flickr ID from the browser address bar by navigating to the “You” link on the top navbar. It will look like https://www.flickr.com/photos/yourIDhere/. An example would be 1895558555@N03. You’ll need that later for some of the API methods.
 
 Upload a few photos to your photostream!
 
