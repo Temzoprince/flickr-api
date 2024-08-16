@@ -1,0 +1,13 @@
+<h1>Get a flickr user's photos</h1>
+
+<%= form_with method: :get do |form| %>
+  <%= form.label :query, "Enter the user id:" %>
+  <%= form.text_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
+
+<% if @photos %>
+  <% @photos.each do |photo| %>
+    <%= image_tag "https://live.staticflickr.com/#{photo.server}/#{photo.id}_#{photo.secret}.jpg", size: "150x200" %>
+  <% end %>
+<% end %>
